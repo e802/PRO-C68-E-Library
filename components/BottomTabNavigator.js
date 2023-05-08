@@ -33,3 +33,14 @@ export default class BottomTabNavigator extends Component {
     );
   }
 }
+
+
+// In React Navigation, `Tab.Screen` is a component provided by `createBottomTabNavigator` that represents a single screen or view in a bottom tab navigation. A bottom tab navigation is a common navigation pattern used in mobile apps where the user can switch between multiple screens by tapping on tabs displayed at the bottom of the screen.
+
+//`BottomTabNavigator` is a custom component that uses `createBottomTabNavigator` to create a bottom tab navigator with two screens: `TransactionScreen` and `SearchScreen`. The `Tab.Screen` component is used to define each screen and its associated component.
+
+// The `name` prop passed to each `Tab.Screen` component represents the name of the screen and is used for navigation. The `component` prop represents the component that should be rendered when the screen is active.
+
+// When the user taps on a tab, the corresponding screen component is displayed. The bottom tab navigation is rendered using the `NavigationContainer` component, which is required for all types of navigation in React Navigation.
+
+// Overall, `Tab.Screen` is a simple and powerful component that allows you to define the screens and components for a bottom tab navigation in React Navigation.
