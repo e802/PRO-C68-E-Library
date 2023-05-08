@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 import { NavigationContainer } from "@react-navigation/native";
+
+
+// In React Native, the NavigationContainer is a component provided by the React Navigation library
+// that helps manage navigation between screens in your application. 
+// It creates a navigation context and provides a way to navigate between screens using a stack-based navigation system.
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 import TransactionScreen from "../screens/Transaction";
